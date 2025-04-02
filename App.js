@@ -18,7 +18,7 @@ const RegisterScreen = () => {
 
   return (
     <View style={styles.container}>
-      <StatusBar backgroundColor="#AEE1F9" barStyle="dark-content" />
+      <StatusBar backgroundColor="#FFF" barStyle="dark-content" />
       <BackgroundDecor />
       <RegisterForm />
     </View>
@@ -28,7 +28,7 @@ const RegisterScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#AEE1F9',
+    backgroundColor: '#FFF9ED',
     alignItems: 'center',
     justifyContent: 'center',
     paddingHorizontal: width * 0.05,
